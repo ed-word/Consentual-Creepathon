@@ -15,6 +15,18 @@ def game(request):
     return render(request, 'game.html', {'age': age})
 
 
+def chatbot(request):
+    return render(request, 'chatbot.html')
+
+
+def myadmin(request):
+    return render(request, 'index.html')
+
+
+def charts(request):
+    return render(request, 'charts.html')
+
+
 # def menu(request):
 #     return render(request, 'registration/menu.html')
 
