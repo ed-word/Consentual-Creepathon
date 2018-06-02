@@ -1,0 +1,41 @@
+{% load static %}
+<html>
+
+<head>
+    <link rel="stylesheet" href="{% static 'js/Swiper/dist/css/swiper.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/game.css' %}">
+</head>
+
+<body>
+    <input id="maxAge" type="hidden" value="{{age}}">
+
+    <div id="age">
+        0 years
+    </div>
+
+    <div id="viewport">
+        <ul class="stack">
+
+        </ul>
+    </div>
+
+    <div id="source">
+        <p>Drag the playing cards out of the stack and let go. Dragging them beyond the desk will throw them out of the stack.</p>
+    </div>
+
+    <div id="modal">
+        <h3> Hey! You did well but here are some things about HIV and AIDS you should know!</h3>
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div id="swiper-wrapper" class="swiper-wrapper">
+                <!-- Slides -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="{% static 'js/Swiper/dist/js/swiper.min.js' %}"></script>
+<script src="{% static 'js/bundle.js' %}"></script>
+
+</html>
