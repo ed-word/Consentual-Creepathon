@@ -6,6 +6,10 @@ li {
     padding: 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
 body {
     background: #191716;
     color: #fff;
@@ -32,7 +36,7 @@ input {
     width: 50px;
 }
 
-#age{
+.age {
     text-align: center;
     margin-top: 30px;
     font-size: 2rem;
@@ -49,19 +53,23 @@ input {
 }
 
 #viewport .stack {
-    width: 200px;
+    width: 250px;
     height: 300px;
     background: #ED5D52;
     position: absolute;
     top: 100px;
     left: 50%;
-    margin-left: -100px;
+    transform: translateX(-50%);
     border-radius: 10px;
 }
 
 #viewport li {
-    width: 200px;
-    height: 330px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    height: 300px;
     list-style: none;
     background: #fff;
     border-radius: 5px;
@@ -76,16 +84,6 @@ input {
     cursor: default;
     padding: 15px;
     cursor: pointer;
-}
-
-#viewport li.clubs,
-#viewport li.spades {
-    color: #373737;
-}
-
-#viewport li.diamonds,
-#viewport li.hearts {
-    color: #ED5D52;
 }
 
 #viewport li.in-deck:nth-child(3) {
@@ -137,15 +135,15 @@ input {
     color: #C7433E;
 }
 
-.deleted{
+.deleted {
     pointer-events: none;
 }
 
-.stack li{
+.stack li {
     transition: opacity 0.3s ease;
 }
 
-#modal{
+#modal {
     background: #fff;
     position: fixed;
     top: 30px;
@@ -153,7 +151,7 @@ input {
     transform: translateX(-50%);
     padding: 15px;
     border-radius: 15px;
-    box-shadow: rgba(0,0,0,0.3) 0px 4px 6px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 6px;
     color: #000;
 }
 
@@ -161,6 +159,8 @@ input {
     width: 600px;
     height: 400px;
     padding: 20px;
+    border: solid black 2px;
+    padding-bottom: 35px;
 }
 
 .swiper-slide {
@@ -169,4 +169,44 @@ input {
     text-align: center;
     padding: 8px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.move-left::before,
+.move-right::before {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: -10px;
+    left: -10px;
+    border: 10px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.move-left:before {
+    content: 'NO';
+    background: #FF6B6B;
+    border-color: #FF6B6B;
+}
+
+.move-right:before {
+    content: 'YES';
+    background: #4ECDC4;
+    border-color: #4ECDC4;
+}
+
+.deleted.move-right:before,
+.deleted.move-left:before {
+    opacity: .7;
 }
