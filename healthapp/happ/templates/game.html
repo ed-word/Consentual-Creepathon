@@ -9,8 +9,8 @@
 <body>
     <input id="maxAge" type="hidden" value="{{age}}">
 
-    <div id="age">
-        0 years
+    <div class="age">
+        You are <span id="age"> 0 years </span> old
     </div>
 
     <div id="viewport">
@@ -19,12 +19,15 @@
         </ul>
     </div>
 
-    <div id="source">
-        <p>Drag the playing cards out of the stack and let go. Dragging them beyond the desk will throw them out of the stack.</p>
+<div id="source" style="max-width:350px; text-align:center;">
+<p style="text-align:center; display:inline-block">Drag the playing cards out of the stack and let go. Drag left to answer
+    <span style="color:#FF6B6B;">no</span>, right to answer
+    <span style="color:#4ECDC4;">yes</span>
+</p>
     </div>
 
     <div id="modal">
-        <h3> Hey! You did well but here are some things about HIV and AIDS you should know!</h3>
+        <h3 style="text-align:center;"> Here are some things about HIV and AIDS you should know!</h3>
         <div class="swiper-container">
             <!-- Additional required wrapper -->
             <div id="swiper-wrapper" class="swiper-wrapper">
