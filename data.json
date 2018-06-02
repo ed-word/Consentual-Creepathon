@@ -1,0 +1,98 @@
+{
+   "0":{
+      "Age":13,
+      "Questions":"Your classmate has AIDS. Your teacher makes you sit with him. Do you complain to the teacher?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"Sitting with your friend is completely harmless. AIDS does not spread through touch. Touching, coughing, even sweat cannot transmit HIV."
+   },
+   "1":{
+      "Age":17,
+      "Questions":"Your best friend Samantha kissed her boyfriend James for the first time. But now she is worried she could contract HIV. Do you agree with her concerns?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"There is such a small amount of HIV in the saliva of a person living with HIV that the infection can\u2019t be passed on from kissing."
+   },
+   "2":{
+      "Age":15,
+      "Questions":"You and your friends are playing a game of football. Sam does not want Bryan to play since he is infected with HIV and he thinks Bryan\u2019s sweat will transmit HIV to others as well. But everyone decides to let Bryan play. Are they right in this decision?",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"There is no HIV in an infected person\u2019s sweat, tears, urine or faeces."
+   },
+   "3":{
+      "Age":13,
+      "Questions":"You are talking to Bryan who is infected with HIV. He sneezes loudly and apologises profusely after that. He is scared that you will get infected too. You tell him not to worry about it.",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"HIV cannot survive in the air so coughing, sneezing or spitting cannot transmit HIV."
+   },
+   "4":{
+      "Age":14,
+      "Questions":"Cyprien is scared of visiting the neighbouring shelter where HIV infected kids live. He thinks if a mosquito over there bites him, he will get infected too. Cyprien\u2019s mother tells him not to worry about it. Is she correct?",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"You cannot get HIV from insects. When an insect such as a mosquito or fly bites you it sucks your blood \u2013 it does not inject the blood of the last person it bit."
+   },
+   "5":{
+      "Age":15,
+      "Questions":"Freddie does not want to use the school swimming pool because he is paranoid that he can contract HIV virus this way. His teacher explains that he has nothing to fear about. Is she right?",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"HIV can not survive in water, so you will not get HIV from swimming pools, baths, shower areas, washing clothes or from drinking water."
+   },
+   "6":{
+      "Age":14,
+      "Questions":"Jamie refuses to use his flute anymore after Bryan who is tested HIV positive tried playing it once. Jamie\u2019s mother convinces him that his tantrums are wrong and he should not treat Bryan this way. Is she correct?",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"HIV can not survive on musical instruments. Even if it is an instrument that you play using your mouth, it can not give you HIV."
+   },
+   "7":{
+      "Age":14,
+      "Questions":"Amanda brought red-pigmented oranges to class. Tony warned everyone not to eat them because he had heard that they have supposedly been injected with HIV. Do you believe Tony?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"You cannot get HIV from sharing food of any kind, including fruit. Even if HIV contaminated blood did get onto the food you are eating, the virus does not live long enough outside of a human body for it to be transmittable."
+   },
+   "8":{
+      "Age":16,
+      "Questions":"A recent SMS rumour suggested not to drink any products from Pepsi for the next few weeks, as a line worker at Pepsi was secretly contaminating cans of fizzy drink with the virus. Do you stop drinking Pepsi?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"This incredibly damaging message has been circulating the web in different formats since 2004. Even if there was blood found within the drink cans, HIV can not live outside of the body long enough for it to be transmittable."
+   },
+   "9":{
+      "Age":22,
+      "Questions":"Joey reuses an old condom while having sex with Lily. This worries Lily since Joey has had multiple partners in the past. Is she correct in worrying about this?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"HIV can only survive for a really short amount of time outside of the body. Even if the condom had sperm from an HIV-positive person in it, the HIV would be dead."
+   },
+   "10":{
+      "Age":21,
+      "Questions":"Rachel tells Phoebe how she really wants a tattoo on her arm. Phoebe warns Rachel about the dangers of contracting HIV. Should Rachel still get a tattoo?",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"There is only a risk if the needle used by the professional has been used in the body of an HIV-infected person and not sterilised afterwards. However, most practitioners are required to use new needles for each new client."
+   },
+   "11":{
+      "Age":18,
+      "Questions":"Amanda and Reynold had sex last night. Amanda took a contraceptive pill later to prevent the risk of HIV. Is this safe enough?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"You cannot prevent HIV just by washing up after sex, popping a contraceptive pill or special herbal medicines."
+   },
+   "12":{
+      "Age":18,
+      "Questions":"Jennifer\u2019s partner says that condoms are the only way to prevent HIV. Lori disagrees. Is Lori correct in disagreeing?",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"Though condoms are a great way to prevent HIV and other STIs if they are used correctly during every sexual encounter, they are not the only way to prevent HIV. Pre-exposure prophylaxis (PrEP) is medication you can take every day if you are at risk of HIV exposure. Emergency post-exposure prophylaxis (PEP) is medication taken after condomless sex or other possible exposure to HIV."
+   },
+   "13":{
+      "Age":21,
+      "Questions":"Monica says everyone with HIV is infectious and can transmit the virus. Is this true?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"Several studies show that people with HIV who take HIV medication as prescribed and who, as a result, have what is known as an \u201cundetectable viral load,\u201d do not transmit HIV. Having sex with an HIV positive person who has an undetectable viral load is safer than having sex with someone who does not know their HIV status."
+   },
+   "14":{
+      "Age":20,
+      "Questions":"My partner Judy has an HIV status that is different from my own. She says we can still have sex. Is she correct?",
+      "Right Answer":"Yes.",
+      "Tip (Consequence on wrong answer)":"There are many strategies you can use to have a happy and healthy sex life with a person who has a different HIV status than you do. Condoms help prevent HIV and other STIs if you use them correctly and consistently. It is important to have an open conversation with your partner and clinician to make sure you create a prevention strategy that works for you."
+   },
+   "15":{
+      "Age":22,
+      "Questions":"Jamie tested positive on an HIV test he recently took. Is this bad news?",
+      "Right Answer":"No.",
+      "Tip (Consequence on wrong answer)":"The only bad HIV test is the one you do not take. Any result, positive or negative, is an opportunity to stay healthy. If you are positive, you can start treatment immediately to stay healthy and to prevent HIV transmission. To end stigma, we must stop looking at HIV status as bad or good, clean or dirty."
+   }
+}
