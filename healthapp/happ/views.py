@@ -2,11 +2,21 @@ from django.shortcuts import render, redirect
 # from .forms import Register, ProfileInfo
 from django.contrib.auth import authenticate, login
 from .models import userModel
+
+from django.views.decorators.csrf import csrf_exempt
+from django.http import JsonResponse
 '''
 from .models import Benefactor
 from book_listing.models import Book_List
 from forum.models import Post
 '''
+import nltk
+import math
+from nltk.corpus import stopwords
+from nltk.corpus import stopwords
+from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.stem import PorterStemmer
+from nltk.stem import WordNetLemmatizer
 
 
 
@@ -28,9 +38,71 @@ def charts(request):
 
 
 def home(request):
-	return render(request, 'home.html')
+    return render(request, 'home.html')
 
- 
+@csrf_exempt
+def bot_response(request):
+    data = {"success": False}
+
+    if request.method == "POST":
+        l1,l2=[],[]
+        with open("data/Questions.txt") as f:
+            for line in f.readlines():
+                l1.append(line.strip())
+        with open("data/Answers.txt") as f:
+            for line in f.readlines():
+                l2.append(line.strip())
+        set(stopwords.words('english'))
+        ps = PorterStemmer()
+        lemmatizer = WordNetLemmatizer()
+        def clean(input):
+            inpfin=[]
+            stop_words = set(stopwords.words('english'))
+            word_tokens = word_tokenize(input)
+            word_tokens = [word for word in word_tokens if word.isalpha()]
+            filtered_sentence = [w for w in word_tokens if not w in stop_words]
+            filtered_sentence = []
+            for w in word_tokens:
+                if w not in stop_words:
+                    inpfin.append(lemmatizer.lemmatize(ps.stem(w.lower())))
+            return inpfin
+        fin=[]
+        for i in l1:
+            stop_words = set(stopwords.words('english'))
+            word_tokens = word_tokenize(i)
+            word_tokens = [word for word in word_tokens if word.isalpha()]
+            filtered_sentence = [w for w in word_tokens if not w in stop_words]
+            filtered_sentence = []
+            for w in word_tokens:
+                if w not in stop_words:
+                    filtered_sentence.append(lemmatizer.lemmatize(ps.stem(w.lower())))
+            fin.append(filtered_sentence)
+        def query(inpfin):
+            infin=[]
+            infin=clean(inpfin)
+            #print(infin)
+            max=0
+            ans=0
+            for i in range(len(fin)):  
+                count=0
+                for k in infin:
+                    for j in fin[i]:
+                        if j==k:
+                            count=count+1
+                            break
+                #print(count)
+                if count>max:
+                    max=count
+                    ans=i
+            #print(max)
+            return ans  
+        x=query(request.POST["query"])
+
+        data['success'] = True
+        data['response'] = l2[x]
+
+    return JsonResponse(data) 
+
 # def menu(request):
 #     return render(request, 'registration/menu.html')
 
