@@ -1,6 +1,7 @@
 I am still learning about this 
+AIDS stands for Acquired Immune Deficiency Syndrome. It is the later stage of HIV infection. It is a condition in which a group of symptoms appear as the immune system becomes very weak.
+HIV stands for Human Immuno-deficiency Virus. HIV after entering the human body gradually destroys the immune system, i.e. the ability to fight infections/diseases. 
 Maybe,it depends on whether the syringe is used or new
-HIV stands for Human Immuno-deficiency Virus. HIV after entering the human body gradually destroys the immune system, i.e. the ability to fight infections/diseases.
 Stopping injection and other drug use can lower your chances of getting or transmitting HIV a lot. 
 An HIV-infected mother can infect the child in her womb through her blood. The baby is more at risk if the mother has been recently infected or is in an advanced stage of AIDS.
 Yes,An HIV-infected mother can infect the child in her womb through her blood. The baby is more at risk if the mother has been recently infected or is in an advanced stage of AIDS.
@@ -92,7 +93,6 @@ If we look at HIV infections* by transmission category, we see that gay, bisexua
 Yes. In the United States, 6,721 people died from HIV and AIDS in 2014. HIV remains a significant cause of death for certain populations. In 2014, it was the 8th leading cause of death for those aged 25-34 and 9th for those aged 35-44.
 Yes. HIV is largely an urban disease, with most cases occurring in metropolitan areas with 500,000 or more people. 
 HIV disease continues to be a serious health issue for parts of the world. Worldwide, there were about 1.8 million new cases of HIV in 2016. About 36.7 million people were living with HIV around the world in 2016, and 19.5 million of them were receiving medicines to treat HIV, called antiretroviral therapy (ART).
-AIDS stands for Acquired Immune Deficiency Syndrome. It is the later stage of HIV infection. It is a condition in which a group of symptoms appear as the immune system becomes very weak. 
 No. Being diagnosed with HIV does not mean a person will also be diagnosed with AIDS. Healthcare professionals diagnose AIDS only when people with HIV infection begin to get severe opportunistic infections (OIs), or their CD4cell counts fall below a certain level.
 HIV can be transmitted through: Unprotected sex with an HIV infected person; Transfusion of HIV infected blood or blood products; Sharing of needles contaminated with HIV infected blood
 HIV generally affects people at the most productive age, leading to premature death thereby severely affecting the socio-economic structure of whole families, communities and countries.
@@ -117,4 +117,3 @@ Both men and women share the responsibility for avoiding behaviour that might le
  TB is spread through the air by a person suffering from TB. A single patient can infect 10 or more people in a year if not treated.
 Cough for two weeks or more, sometimes with blood-streaked sputum,Fever, especially at night>=2 weeks, Weight loss,Night sweat
 HIV is the strongest risk factor for tuberculosis among adults.
-

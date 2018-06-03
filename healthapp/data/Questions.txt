@@ -1,6 +1,7 @@
 nknsavbn
-can i get hiv by using syringe
+What is AIDS?
 What is HIV?
+can i get hiv by using syringe
 How can I prevent getting HIV from drug use?
 How does a mother transmit HIV to her unborn child?
 Can a mother transmit HIV to her unborn child?
@@ -92,7 +93,6 @@ How does HIV affect different groups of people?
 Do people still die from HIV?
 Do some parts of the country have more HIV than other parts?
 What about HIV around the world?
-What is AIDS? 
 Do all people with HIV have AIDS?
 How do people get infected with HIV?
 Why the HIV  AIDS epidemic is considered so serious?
@@ -117,4 +117,3 @@ What is Tuberculosis (TB)?
 How is tuberculosis caused?
 What are the symptoms of tuberculosis?
 What is relation between TUBERCULOSIS AND HIV?
-
