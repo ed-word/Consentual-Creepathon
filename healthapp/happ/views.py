@@ -27,6 +27,10 @@ def charts(request):
     return render(request, 'charts.html')
 
 
+def home(request):
+	return render(request, 'home.html')
+
+ 
 # def menu(request):
 #     return render(request, 'registration/menu.html')
 
