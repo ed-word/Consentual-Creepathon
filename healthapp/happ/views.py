@@ -17,7 +17,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
-
+import os
 
 
 def game(request):
@@ -46,10 +46,10 @@ def bot_response(request):
 
     if request.method == "POST":
         l1,l2=[],[]
-        with open("data/Questions.txt") as f:
+        with open("HackM/healthapp/data/Questions.txt") as f:
             for line in f.readlines():
                 l1.append(line.strip())
-        with open("data/Answers.txt") as f:
+        with open("HackM/healthapp/data/Answers.txt") as f:
             for line in f.readlines():
                 l2.append(line.strip())
         set(stopwords.words('english'))
