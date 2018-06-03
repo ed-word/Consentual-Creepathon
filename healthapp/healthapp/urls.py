@@ -25,5 +25,5 @@ urlpatterns = [
     url(r'', include(('happ.urls', 'happ'))),
     url(r'^$', auth_views.login, name='login'),
     url(r'^logout/$', auth_views.logout, name='logout'),
-    url(r'^ml_apis/', include('ml_apis.urls')),
+#    url(r'^ml_apis/', include('ml_apis.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
