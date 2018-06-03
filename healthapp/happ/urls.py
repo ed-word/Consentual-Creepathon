@@ -7,4 +7,5 @@ urlpatterns = [url(r'^game/$', views.game, name='game'),
 			url(r'^myadmin/$', views.myadmin, name='myadmin'),
 			url(r'^charts/$', views.charts, name='charts'),
 			url(r'^home/$', views.home, name='home'),
+			url(r'^api/bot$', views.bot_response, name='bot'),
 ]
